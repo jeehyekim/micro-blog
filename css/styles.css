@@ -1,7 +1,7 @@
 
 * {
 	font-family: 'Biryani', sans-serif;
-	color:white;
+	color:white
 }
 
 body {
@@ -9,6 +9,50 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 400;
   background-color: #0020C2; /* Sanity Check! */
+}
+
+/*.navbar-header {
+	background-color: #0020C2;
+
+}*/
+
+.popover {
+  position: absolute;
+  display: none;
+  max-width: 276px;
+  padding: 1px;
+  text-align: center;
+  border-radius: 0px;
+}
+
+.popover.title {
+	background-color: transparent;
+	color:white;
+}
+
+.popover.fade.bottom.in {
+	background-color: #0020C2;
+	color:white;
+	border:2px solid white;
+}
+
+div.arrow {
+	border-top-color: white;
+	border-bottom-color: none;
+	left:10%;
+}
+
+/*.popover.title {
+	background-color: transparent;;
+	color: white;
+}*/
+
+ul {
+	list-style-type: none;
+	text-align: center;
+	margin-left: -30px;
+	margin-right:10px;
+	margin-top:10px;
 }
 
 
@@ -83,10 +127,14 @@ div.list-group-item:hover {
 	margin-top: 5px;
 }
 
+img {
+	margin: 20px;
+}
 
 
-
-
+.bottom {
+	margin-top: 200px;
+}
 
 
 

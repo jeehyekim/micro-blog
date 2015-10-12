@@ -15,6 +15,9 @@ $(document).ready(function(){
 			var heartIcon = "<i class='ion-heart' role='button'>" + count + "</i>";
 
 
+	$('#popover').popover({html:true});
+
+
 
 
 	$('#micro-content').keydown(function(event) {
@@ -29,7 +32,7 @@ $(document).ready(function(){
 			$('#date').children().html(count++);
 			// console.log(count++);
 		});
-		
+		return false;
 			}
 		}
 
